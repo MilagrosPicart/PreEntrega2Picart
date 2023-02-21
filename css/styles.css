@@ -1,0 +1,477 @@
+* {
+    margin: 0;
+    padding: 0;
+ }
+ 
+index/
+   html {
+      font-size: 62,5%;
+    }
+   
+   body {
+      background-color: #fff5f0;
+      height: 100vh;
+      width: 100vw;
+   }
+   
+   header {
+      font-weight: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+   } 
+   
+   nav {
+      background-color: #fff5f0;
+      }
+   
+   .nav_logo {
+      height: 50px;
+      width: 120px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+   }
+   
+   ul {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+   }
+   
+   li {
+      list-style: none;
+      transition: height 2s, width 1s;
+   }
+   
+   li:hover {
+         background-color: coral;
+         height: 50px;
+         width: 10%;
+         text-align: center;
+   }
+   a {
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-style: normal;
+      line-height: normal;
+   }
+   
+   .h1_slogan {
+      background-image: url(https://fotos.perfil.com/2018/12/25/trim/950/534/cerro-siete-colores-jujuy-529939.jpg);
+      text-align: center;
+      line-height: 500px;
+      font-size: 250%;
+      color: white;
+      height: 700px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background-position: center;
+      background-size: cover;
+       
+      }
+   
+   .section__historia {
+      font-weight: 100px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      }
+   
+   .section__index--video {
+      height: 700px;
+      width: 500px;
+      margin: 0px 500px;
+      transition: height 3s, width 3s;
+   }
+
+   .section__index--video:hover {
+      height: 900px;
+      width: 600px;
+   }
+   
+   .section_historia {
+      color: black;
+      margin: 5px 5px;
+      padding: 5px 5px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      background-color: #fff5f0;
+      text-align: center;
+   }
+      
+   .section__index--titulo {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bolder;
+   }
+   
+   .section__index--escapadas{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+      line-height: 10%;
+      font-weight: 50%;
+      font-size: 15px;
+      line-height: normal;
+   }
+   
+   .divMdp { 
+      margin: 50px 50px;
+      padding: 30px 30px;
+      border: 0,5px solid #f7862f;
+      background-image: linear-gradient(to left, #ff5526 , #f7862f);
+      background-position: top;
+      overflow: auto;
+      position: relative;
+   }
+   
+   .divMiramar {
+      margin: 50px 50px;
+      padding: 30px 30px;
+      border: 0,5px solid #f7862f;
+      background-image: linear-gradient(to left, #ff5526 ,#f7862f);
+      background-position: top;
+      overflow: auto;
+      position: relative;
+   }
+   
+   .divNecochea {
+      margin: 50px 50px;
+      padding: 30px 30px;
+      border: 0,5px solid #f7862f;
+      background-image: linear-gradient(to left, #ff5526 , #f7862f);
+      background-position: top;
+      overflow: auto;
+      position: relative;
+   }
+   
+   div button {
+      border-radius: 3% solid black;
+      font-size: 10px;
+      transition: all 1s;
+      width: 100px;
+      height: 50px;
+      }
+
+   div button:focus {
+      font-size: 40px;
+      width: 130px;
+      height: 80px;
+      }
+   
+          
+   footer {
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         flex-direction: column;
+         background-color: #fff5f0;
+         height: 100px;
+         position: end;
+         }
+      
+   .footer_btn_contacto {
+         border-radius: 5%;
+         height: 500%;
+         width: 30%;
+      }
+      
+   .logo_container{
+         height: 20px;
+         width: 20px;
+         margin: 30px 40px
+   }
+
+   .logo { 
+         height: 200%;
+         width: 200%;  
+      }
+   
+servicios/
+   .serviciosTitulo {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+      font-size: 150%;
+      text-align: center;
+      border-bottom: 1px solid black;
+      }
+   div {
+      margin: 0px 0px;
+      padding: 50px 50px;
+      background: radial-gradient(closest-side, #ff5526 , #f7862f);
+      background-position: top;
+      overflow: auto;
+      position: relative;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: lighter;
+      text-align: center;
+      font-size: 150%;
+      transition: all 2s;
+   }
+
+   div:hover {
+      background: radial-gradient(ellipse at top, #ff5526 , #f7862f);
+   }
+       
+
+
+
+
+ 
+   contacto/
+   h1 {
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+   }
+   
+   
+   .section_form_conteiner {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px;
+      padding: 20px;
+   }
+   form {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 20px;
+      line-height: 150%;
+      background: radial-gradient(closest-side, #ff5526 , #f7862f);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border: 1px solid #f2a54e;
+      border-radius: 10px;
+      width: 500px;
+      height: 600px;
+      }
+   input {
+      margin: 7px;
+      padding: 10px;
+   }  
+
+   select {
+      margin: 7px;
+      padding: 5px;
+   }
+
+   textarea {
+      margin: 7px;
+      padding: 5px;
+   }
+
+
+   @media screen and (max-width: 768px) {
+      #bodygrids {
+         display: grid;
+         grid-template-rows: (3, 1fr);
+         grid-template-columns: 1fr;
+         grid-template-areas: 
+         'header'
+         'main'
+         'footer';
+            }
+              
+      body {
+         background-color: white;
+      }  
+         
+      header {
+         font-weight: 100%;
+         margin-top: 5px;
+         margin-bottom: 0px;
+         grid-area: header;
+      } 
+      
+      nav
+      {
+         background-color: white;
+         }
+      
+      .nav_logo {
+         height: 25px;
+         width: 60px;
+         margin-top: 0px;
+         margin-bottom: 0px;
+      }
+      
+      ul {
+         flex-direction: column;
+         text-align: right;
+      }
+      
+      li {
+         list-style: none;
+         margin-top: 0px;
+         margin-bottom: 0px;
+         }
+      
+      a {
+         text-decoration: none;
+         color: black;
+         font-size: 20px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-style: normal;
+         line-height: normal;
+      }
+
+      main {
+         grid-area: main;
+      }
+
+      .h1_slogan {
+         background-image: url(https://fotos.perfil.com/2018/12/25/trim/950/534/cerro-siete-colores-jujuy-529939.jpg);
+         text-align: center;
+         line-height: 100px;
+         font-size: 30px;
+         color: white;
+         height: 25%;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         background-position: center;
+         background-size: cover;
+          
+         }
+      
+      .section__historia {
+         font-weight: 50px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         margin-top: 0px;
+         margin-bottom: 0px;
+         }
+      
+      .section__index--video {
+         height: 350px;
+         width: 250px;
+         margin: 0px 0px;
+      }
+      
+      .section_historia {
+         color: black;
+         margin: 1px 1px;
+         padding: 3px 3px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         background-color: #fff5f0;
+         text-align: center;
+         font-size: 20px;
+         }
+      
+      .section__index--titulo {
+         font-family: Arial, Helvetica, sans-serif;
+         font-weight: bolder;
+      }
+      
+      .section__index--escapadas{
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         line-height: 15%;
+         font-weight: 50%;
+         font-size: 15px;
+         line-height: normal;
+      }
+      
+      .divMdp { 
+         margin: 25px 25px;
+         padding: 15px 15px;
+         border: 0,5px solid #f7862f;
+         background-image: linear-gradient(to left, #ff5526 , #f7862f);
+         background-position: top;
+                 
+      }
+      
+      .divMiramar {
+         margin: 25px 25px;
+         padding: 15px 15px;
+         border: 0,5px solid #f7862f;
+         background-image: linear-gradient(to left, #ff5526 ,#f7862f);
+         background-position: top;
+   
+         
+      }
+      
+      .divNecochea {
+         margin: 25px 25px;
+         padding: 30px 30px;
+         border: 0,5px solid #f7862f;
+         background-image: linear-gradient(to left, #ff5526 , #f7862f);
+         background-position: top;
+      
+      }
+      
+      div button {
+         border-radius: 3% solid black;
+         }
+          
+      
+      footer {
+            justify-content: space-around;
+            align-items: end;
+            flex-direction: row;
+            background-color: white;
+            height: 20px;
+            position: static;
+            grid-area: footer;
+            margin-top: 370px;
+            margin-bottom: 20px;
+            }
+         
+      .footer_btn_contacto {
+            border-radius: 5%;
+            height: 150%;
+            width: 15%;
+         }
+         
+      .logo_container{
+            height: 10px;
+            width: 10px;
+            margin: 10px 10px
+         }
+         
+      .logo { 
+            height: 200%;
+            width: 200%;  
+         }
+
+         contacto/
+         h1 {
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+         }
+         
+         
+         .section_form_conteiner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 20px;
+            padding: 20px;
+         }
+         form {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            font-size: 20px;
+            line-height: 150%;
+            background: radial-gradient(closest-side, #ff5526 , #f7862f);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border: 1px solid #f2a54e;
+            border-radius: 10px;
+            width: 500px;
+            height: 600px;
+            }
+         input {
+            margin: 7px;
+            padding: 10px;
+         }  
+      
+         select {
+            margin: 7px;
+            padding: 5px;
+         }
+      
+         textarea {
+            margin: 7px;
+            padding: 5px;
+         } 
+      
+         }
+
